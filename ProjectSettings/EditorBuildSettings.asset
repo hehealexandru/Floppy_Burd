@@ -6,13 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-<<<<<<< HEAD
     path: Assets/Scenes/MainMenu.unity
     guid: f39f94f61781c704ab3169d7822526db
   - enabled: 1
     path: Assets/Scenes/MainGameScene.unity
-=======
-    path: Assets/Scenes/SampleScene.unity
->>>>>>> 997c217 (First commit, empty project and .gitignore)
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
