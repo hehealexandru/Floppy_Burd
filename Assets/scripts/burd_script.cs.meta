@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f39f039fb2f92334486ae258ac3e6255
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - myRigidBody: {instanceID: 0}
+  - logic: {instanceID: 0}
+  - deadBirdSprite: {fileID: 21300000, guid: 10cf63c2bc7fb0c4e927f49db9fd89a5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
