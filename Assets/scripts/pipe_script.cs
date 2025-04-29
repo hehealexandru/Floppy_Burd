@@ -4,26 +4,32 @@ using UnityEngine;
 
 public class pipe_script : MonoBehaviour
 {
-    public float moveSpeed = 25;
-    public float deadZone = -45;
-    public logic_management logic; 
+    public float moveSpeed = 15f;
+    public float deadZone = -35f;
+    public logic_management logic;
+    private int lastScoreChecked = 0;
 
-    // Start is called before the first frame update
     void Start()
     {
         logic = GameObject.FindGameObjectWithTag("logic").GetComponent<logic_management>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (!logic.gameOverScreen.activeSelf) 
+        if (!logic.gameOverScreen.activeSelf)
         {
-            transform.position = transform.position + (Vector3.left * moveSpeed) * Time.deltaTime;
+            transform.position += Vector3.left * moveSpeed * Time.deltaTime;
+
+            if (logic.playerScore != lastScoreChecked)
+            {
+                int difference = logic.playerScore - lastScoreChecked;
+                moveSpeed += 0.2f * difference;
+                lastScoreChecked = logic.playerScore;
+            }
         }
         else
         {
-            moveSpeed = 0; 
+            moveSpeed = 0f;
         }
 
         if (transform.position.x < deadZone)

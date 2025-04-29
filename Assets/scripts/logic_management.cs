@@ -132,7 +132,7 @@ public class logic_management : MonoBehaviour
                     break;
                 }
 
-            case 999:
+            case 1000:
                 {
                     tauntText.gameObject.SetActive(true);
                     tauntText.text = "What did you achieve? Just a time lost and no one to celebrate you! Shame.";

@@ -8,17 +8,15 @@ public class burd_script : MonoBehaviour
     public float flapStrenght;
     public bool birdIsAlive = true;
     public logic_management logic;
-    public Sprite deadBirdSprite; // Add this line
+    public Sprite deadBirdSprite; 
 
-    // Start is called before the first frame update
     void Start()
     {
         logic = GameObject.FindGameObjectWithTag("logic").GetComponent<logic_management>();
-        myRigidBody = GetComponent<Rigidbody2D>(); // Add this line
+        myRigidBody = GetComponent<Rigidbody2D>();
         myRigidBody.simulated = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && birdIsAlive && !logic.gameStarted)
