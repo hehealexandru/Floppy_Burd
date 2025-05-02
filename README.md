@@ -28,7 +28,23 @@
 
 ## 🏁 How to Run the Game 
 
-- Under Development
+You can download and play **Floppy Burd** by following these steps:
+
+### 🔹 Option 1: Portable `.exe` (no install)
+1. Go to the [`Releases`](https://github.com/hehealexandru/Floppy_Burd/releases) section.
+2. Download the latest version:  
+   👉 [`FloppyBurd_v1.0.zip`](https://github.com/hehealexandru/Floppy_Burd/releases/download/v1.0/FloppyBurd_v1.0.zip)
+3. Extract the `.zip` archive.
+4. Run `FloppyBurd.exe` and enjoy 🐦
+
+### 🔹 Option 2: Installer `.exe`
+1. Download the installer:  
+   👉 [`FloppyBurdSetup.exe`](https://github.com/hehealexandru/Floppy_Burd/releases/download/v1.0/FloppyBurdSetup.exe)
+2. Run the installer and follow the steps.
+3. Launch from Desktop shortcut or Start Menu.
+
+**Note:** If Windows blocks the file, click "More info" → "Run anyway".
+
 ---
 
 ## 👨‍💻 Author
