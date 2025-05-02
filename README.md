@@ -31,7 +31,7 @@
 To play **Floppy Burd**, follow these steps:
 
 1. Download the folder [`floppy_burd_build`](./floppy_burd_build)
-2. Inside the folder, locate the file: `FloppyBurd.exe`
+2. Inside the folder, locate the file: `Floppy Burd.exe`
 3. Double-click the `.exe` to start the game
 4. If you get a Windows warning, click **"More info" → "Run anyway"**
 
